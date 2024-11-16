@@ -1,0 +1,27 @@
+eigenlayer 
+
+
+install go
+
+sudo apt updatenux-amd64.ta
+echo
+sudo nano $HOME
+export PATH=$PATH:/usr/loca
+eigenlayer operator register operator.yaml
+
+eigenlayer operator status operator.yaml
+
+cd ~
+
+git clone https://github.com/Layr-Labs/eigenda-operator-setup.git
+
+cd eigenda-operator-setup
+docker compose up -d
+
+docker compose logs -f
+
+
+
+
+
+
